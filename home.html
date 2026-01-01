@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" >
+     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <link href="css/style.css"  rel="stylesheet">
+     <link href="css/media.css" rel="stylesheet">
+    <title>WsCubeTech</title>
+</head>
+<body>
+  <!--Enjuiry Modal -->
+<div class="modal fade" id="enModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Enquire Now</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="bannerForm p-3">
+              <h3>Book Your Free Class Now!</h3>
+              <p>2 days of free demo classes without paying in advice!</p>
+
+              
+              <div class="mb-3">
+                <label for="name" class="form-label">name</label>
+                <input type="text" class="form-control">
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">email</label>
+                <input type="email" class="form-control">
+              </div>
+
+              <div class=" mb-3">
+                 <label for="phone" class="form-label">phone</label>
+                 <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">+91</span>
+                <input type="text" class="form-control" placeholder="phone" >
+                </div>
+                </div>
+
+                <div class="mb-3">
+                  <button>Register Now</button>
+                </div>
+
+              </div>
+            </form>
+      </div>
+      
+    </div>
+  </div>
+<!--enquiry modal ends-->
+<!--2nd Modal-->
+<div class="modal fade" id="bookDemo">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Book Now</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="bannerForm p-3">
+              <h3>Book Your Free Class Now!</h3>
+              <p>2 days of free demo classes without paying in advice!</p>
+
+              
+              <div class="mb-3">
+                <label for="name" class="form-label">name</label>
+                <input type="text" class="form-control">
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">email</label>
+                <input type="email" class="form-control">
+              </div>
+
+              <div class=" mb-3">
+                 <label for="phone" class="form-label">phone</label>
+                 <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">+91</span>
+                <input type="text" class="form-control" placeholder="phone" >
+                </div>
+                </div>
+
+                <div class="mb-3">
+                  <button>Register Now</button>
+                </div>
+
+              </div>
+            </form>
+      </div>
+      
+    </div>
+  </div>
+<!--2nd Modal ends-->
+<!--header-->
+<header class="container-fluid">
+  <div class=" container">
+    <div class="row">
+      <div class="col-12"> 
+        <nav class="navbar navbar-expand-lg">
+          <a href="home.html" class="navbar-brand">
+            <img  src="images/logo.jpg" alt="" style="height:100px">
+          </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#moblieMenu" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+           <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav ">
+               <li class="nav-item">
+                 <a class="nav-link active"  href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active"  href="#">About</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active"  href="#">Course</a>
+               </li>
+            </ul>
+           </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="moblieMenu" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+       <img  src="images/logo.jpg" alt="" style="height:100px">
+    </h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <ul class="navbar-nav ">
+               <li class="nav-item">
+                 <a class="nav-link active"  href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active"  href="#">About</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active"  href="#">Course</a>
+               </li>
+            </ul>
+   
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+
+</header>
+<!--header ends-->
+ <!--slider-->
+     <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://media.gettyimages.com/id/1153397912/photo/digital-marketing-online-technology-concept.jpg?s=612x612&w=0&k=20&c=RRdeUzZbNyVIHBbHUFhNWZMgML-hwMWx_zgYoHq7h8M=" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://media.gettyimages.com/id/1367899893/photo/multi-racial-diverse-group-of-people-working-with-paperwork-on-a-board-room-table-at-a.jpg?s=612x612&w=0&k=20&c=2t0t2NfFIpuggzGw54kqtYanxj3f7if1CVjnPh5YRCc=" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://media.gettyimages.com/id/1641314688/photo/collaborative-corporate-finance-analysis-businesspeople-strategizing-on-monitor-graph.jpg?s=612x612&w=0&k=20&c=r2iR9bwTB0aC6_phUNBb4xrDj4U_PEwj31JaP6ncJnU=" class="d-block w-100 img-fluid" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+     <!--slider ends-->
+    <!--header-->
+    <header class="container-fluid  shadow-lg bg-white  top-0 ">
+      <div class="container" >
+           <div class="row align-items-center " >
+              <figure class="col-lg-6 col-12 text-lg-start text-center  mb-0 pb-0 ">
+                 <img class="img-fluid"   src="images/logo.jpg" alt="" style="height:100px">
+              </figure>
+              <div class="col-lg-6 btn-outer d-flex gap-3 justify-content-end">
+                <div>
+                <button class="btn whatsappbtn">  <i class="fa-brands fa-whatsapp"></i> Chat with Us</button>
+                <button class="btn call">  <i class="fa-solid fa-phone"></i> Call Us</button>
+                </div>
+              </div>
+           </div>
+      </div>
+    </header>
+    <!--header end-->
+    <!--section-->
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+       <div class="container">
+        <div class="row justify-content-between gy-4 align-items-center" >
+          <div class="col-lg-6">
+            <div class="bannerContent">
+              <h1>Carrer Opportunites <br/> in <span> Digital Marketing </span></h1>
+              <p>Digital marketing course so good, you only pay-after-placement</p>
+              <ul class="m-0 p-0">
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Specilization:Performance Marketing</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Mifn salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+              </ul>
+
+              <div class="bannerContentBtn d-flex gap-3">
+                <button data-bs-toggle="modal" data-bs-target="#bookDemo">Book 2 Days Demo</button>
+                <button data-bs-toggle="modal" data-bs-target="#enModal"><i class="fa-solid fa-download "></i> Download Curriculum</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <form class="bannerForm shadow-lg">
+              <h3>Book Your Free Class Now!</h3>
+              <p>2 days of free demo classes without paying in advice!</p>
+
+              
+              <div class="mb-3">
+                <label for="name" class="form-label">name</label>
+                <input type="text" class="form-control">
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">email</label>
+                <input type="email" class="form-control">
+              </div>
+
+              <div class=" mb-3">
+                 <label for="phone" class="form-label">phone</label>
+                 <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">+91</span>
+                <input type="text" class="form-control" placeholder="phone" >
+                </div>
+                </div>
+
+                <div class="mb-3">
+                  <button>Register Now</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+       </div>
+    </section>
+    <!--section end-->
+    <!-- section part2-->
+     <div class="container counterSection ">
+       <div class=" row p-4 row-cols-lg-5 row-cols-md-2 row-cols-2 shadow-lg mt-5">
+        <div class="col">
+          <h2>1000+</h2>
+          <p>Students Trained</p>
+        </div>
+        <div class="col">
+          <h2>4.5 LPA</h2>
+          <p>Students Trained</p>
+        </div>
+        <div class="col">
+          <h2>320+</h2>
+          <p>Recuiting Partners</p>
+        </div>
+        <div class="col">
+           <h2>10:00 am</h2>
+           <p>Program Timings</p>
+        </div>
+        <div class="col">
+          <h2>11th May</h2>
+          <p>New Batch starts</p>
+        </div>
+        
+       </div>
+     </div>
+     <!--section part2 end-->
+     <!--highlights section-->
+     <section class="container-fluid highlights-section py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12">
+            <h2>
+              Key Highlights of the Course
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit itaque enim veritatis, sapiente distinctio voluptas.
+            </p>
+          </div>
+        </div>
+
+        <div class="row gy-3">
+
+          <div class="col-lg-4 col-sm-6 col-12 ">
+            <div class="bg-white p-3 d-flex align-items-center gap-3 highlightsItems">
+             <img src="https://img.icons8.com/?size=48&id=5KBiyo55XqCl&format=png"></img>
+              <div>
+              <h4>Assignments and <br/>Modules Test</h4>
+              <p>Test Your Knowledge</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="bg-white p-3 d-flex align-items-center gap-3 highlightsItems">
+             <img src="https://img.icons8.com/?size=40&id=38845&format=png">
+              <div>
+              <h4>Industriy-Recognize<br/>Certification</h4>
+              <p>Stand out to your Professional</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="bg-white p-3 d-flex align-items-center gap-3 highlightsItems">
+             <img src="https://img.icons8.com/?size=80&id=J3uhYNSLzbWP&format=png">
+              <div>
+              <h4>Live Classes &<br/>Recorded Leactures</h4>
+              <p>Best of both worlds of learning</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="bg-white p-3 d-flex align-items-center gap-3 highlightsItems">
+             <img src="https://img.icons8.com/?size=32&id=ru2MhpaRwUwk&format=png">
+              <div>
+              <h4>Downloadable <br/>Content</h4>
+              <p>With Lifetime access</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="bg-white p-3 d-flex align-items-center gap-3 highlightsItems">
+             <img src="https://img.icons8.com/?size=48&id=pxP3DtLAzp2Q&format=png">
+              <div>
+              <h4>6 Industry level <br/>Project</h4>
+              <p>Get practical skills</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <div class="bg-white p-3 d-flex align-items-center gap-3 highlightsItems">
+             <img src="https://img.icons8.com/?size=40&id=98988&format=png">
+              <div>
+              <h4>4 Live Doubt Clearning  <br/>Session</h4>
+              <p>Gain a clear understanding</p>
+              </div>
+            </div>
+          </div>
+        
+
+         
+           
+
+
+        </div>
+      </div>
+     </section>
+     <!--highlights section ends-->
+     <!--navs & tabs-->
+     <section class="container-fluid py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="fw-bold">Curriculum of <br/>our Digital Marketing</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, impedit atque?</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#Introduction" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Introduction</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#case-studies" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Case Studies</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#google-adSense" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Google AdSense</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#SEo-Mastery" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">SEo Mastery</button>
+  </li>
+  
+</ul>
+
+<div class="tab-content" id="pills-tabContent">
+
+
+  <div class="tab-pane fade show active" id="Introduction" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+    <div class="row shadow-lg p-4 tabItemsContent">
+      <div class="col-lg-12">
+                  <h2>Introduction</h2>
+                </div>
+      <div class="col-lg-6">
+        <ul class="m-0 p-0">
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Specilization:Performance Marketing</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+              </ul>
+      </div>
+      <div class="col-lg-6">
+        <ul class="m-0 p-0">
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Specilization:Performance Marketing</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+               </ul>
+               </div>
+
+               </div>
+               </div>
+
+               <div class="tab-pane fade" id="case-studies" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="row shadow-lg p-4 tabItemsContent">
+                <div class="col-lg-12">
+                  <h2>Case Studies</h2>
+                </div>
+                <div class="col-lg-6">
+              <ul class="m-0 p-0">
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Specilization:Performance Marketing</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+             </ul>
+              </div>
+               <div class="col-lg-6">
+              <ul class="m-0 p-0">
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Specilization:Performance Marketing</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+             </ul>
+              </div>
+               </div>
+               </div>
+
+               <div class="tab-pane fade" id="google-adSense" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"> <div class="row shadow-lg p-4 tabItemsContent">
+                <div class="col-lg-12">
+                  <h2>Google AdSense</h2>
+                </div>
+                <div class="col-lg-6">
+              <ul class="m-0 p-0">
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Specilization:Performance Marketing</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+             </ul>
+              </div>
+               <div class="col-lg-6">
+              <ul class="m-0 p-0">
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Specilization:Performance Marketing</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+             </ul>
+              </div>
+               </div></div>
+
+
+               <div class="tab-pane fade" id="SEo-Mastery" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                 <div class="row shadow-lg p-4 tabItemsContent">
+                <div class="col-lg-12">
+                  <h2>SEo Mastary</h2>
+                </div>
+                <div class="col-lg-6">
+              <ul class="m-0 p-0">
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Specilization:Performance Marketing</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+             </ul>
+              </div>
+               <div class="col-lg-6">
+              <ul class="m-0 p-0">
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Specilization:Performance Marketing</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> Min salary of RS 4.5 LPA</li>
+                <li class="mb-3"> <i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+             </ul>
+              </div>
+               </div>
+               </div>
+
+
+               
+
+           </div>
+          </div>
+        </div>
+      </div>
+     </section>
+      <!--navs & tabs end-->
+     <!--next-->
+      <section class="container-fluid py-5 bg-secondary-subtle">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="text-center fw-bold">Digital Markating Course<br/>FAQS</h2>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, amet in.</p>
+                 <div class="accordion" id="accordionExample">
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      1 What is website development?
+                      </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                       <div class="accordion-body">
+                       <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                     </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      2 What is website development?
+                      </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                       <div class="accordion-body">
+                       <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                     </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      3 What is website development?
+                      </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                       <div class="accordion-body">
+                       <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                     </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      4 What is website development?
+                      </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                       <div class="accordion-body">
+                       <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                     </div>
+                    </div>
+                 </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--next ends-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" ></script>
+</body>
+</html>
